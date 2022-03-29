@@ -58,7 +58,6 @@ const Countries = ({countries, filter}) => {
 const App = () => {
 	const [countries, setCountries] = useState([])
 	const [newCountry, setCountry] = useState('')
-	const [newFilter, setFilter] = useState('')
 
 	const handleNewCountry = (event) => {
 		//console.log(event.target.value)
